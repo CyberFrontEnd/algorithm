@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html, body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  min-width: 320px;
+  scroll-behavior: smooth;
+  background-color: #c7c6c6;
+  height: 100vh;
+  padding: 20px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  outline: none;
+  max-width: 100%;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type="text"]:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+h1 {
+  font: normal bold 40px 'Manrope', sans-serif;
+  padding-bottom: 20px;
+}
+
+p {
+  color: #000;
+  font: normal normal 16px 'Manrope', sans-serif;
+  line-height: 25px;
+}
+
+h2 {
+  color: #000;
+  padding: 20px 0;
+}
+
+ol li {
+  padding-bottom: 10px;
+}
